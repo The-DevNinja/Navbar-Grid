@@ -1,0 +1,54 @@
+* {
+    font-family: poppins, 'Courier New', Courier, monospace;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.nav-link {
+    display: grid;
+    background-color: blue;
+    color: white;
+    transition-duration: 0.3s;
+    place-content: center;
+    height: 3em;
+    text-decoration: none;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: blue;
+    transition-duration: 0.2s;
+}
+
+section {
+    height: 100vh;
+}
+
+#first-section {
+    background-color: red;
+}
+
+#second-section {
+    background-color: yellow;
+}
+
+#third-section {
+    background-color: green;
+}
+
+#fourth-section {
+    background-color: blue;
+}
